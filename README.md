@@ -66,10 +66,29 @@
 <br>
 
 ## Getting Started
-### install requirements
+### Set up
+Clone repository
+```
+git clone https://github.com/JaiyoungJoo/level1_imageclassification-cv-06.git
 
+cd level1_imageclassification-cv-06
+```
+Make new Conda env 
+```
+conda create -n classification python=3.8
+
+conda activate classification
+```
+Install requirements
 ```
 pip install -r requirements.txt
+```
+### Download dataset
+```
+wget path/to/download/
+tar -zxvf [파일명.tar.gz]
+
+find . -name '._*' -exec rm {} \;
 ```
 
 <br>
