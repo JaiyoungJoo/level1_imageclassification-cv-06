@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.tar.gz
+
+# folders
+eval/
+train/
+
 # C extensions
 *.so
 
